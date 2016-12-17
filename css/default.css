@@ -1,0 +1,698 @@
+@font-face{
+	font-family: goudy;
+	src: url(../fonts/GOUDOS.ttf);
+	src: url(../fonts/GOUDOSB.ttf);
+}
+@font-face{
+	font-family: univers;
+	src: url(../fonts/UniversLTStd.otf);
+	src: url(../fonts/UniversLTStd-Light.otf);
+}
+@font-face{
+	font-family: universbold;
+		src: url(../fonts/UniversLTStd-Bold.otf);
+}
+/* Global Styles */
+html{
+	margin: 0;
+	max-width: 100%;
+}
+body{
+	height: 100%;
+	background-image: url(../images/space2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+h1, h3, h6, p{
+	color: white;
+}
+#logo{
+	margin-left: 20px;
+	margin-top: 50px;
+	z-index: 4;
+
+}
+.nav_container{
+	width: 1000px;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 40px;
+	margin-left: 230px;
+	font-family: 'univers';
+	font-weight: 100;
+}
+.link_slot {
+	height: 40px;
+	position: relative;
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+}
+
+.link_slot a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	font-family: 'univers';
+	float: left;
+	margin-right: 1px;
+	font-size: .8em;
+	transition: font-size .5s;
+	font-weight: 100;
+}
+.link_slot a:hover{
+	font-size: 1em;
+	transition: font-size .5s;
+}
+.global_link {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	height: 30px;
+	margin-right: 1px;
+	cursor: pointer;
+}
+#one_sub {
+	width: 1300px;
+	position: absolute;
+	left: 0px;
+	display: none;
+}
+
+#two_sub {
+	width: 1300px;
+	position: absolute;
+	left: -74px;
+	display: none;
+}
+
+#three_sub {
+	width: 1000px;
+	position: absolute;
+	left: -100px;
+	display: none;
+}
+
+#four_sub {
+	width: 1000px;
+	position: absolute;
+	left: -150px;
+	display: none;
+}
+
+#five_sub {
+	width: 1000px;
+	position: absolute;
+	left: -100px;
+	display: none;
+}
+
+#six_sub {
+	width: 1000px;
+	position: absolute;
+	left: -200px;
+	display: none;
+}
+
+#seven_sub {
+	width: 1000px;
+	position: absolute;
+	left: -100px;
+	display: none;
+}
+
+.image{
+	-webkit-box-shadow: 10px 10px 56px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 56px -10px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 56px -10px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+/* Home Page Styles */
+#events{
+	position: relative;
+	top: -100px;
+	height: 90px;
+	width: 1000px;
+	margin-left: 100px;
+	font-family: 'univers';
+}
+#events h6{
+	font-size: 1.75em;
+	margin: 0;
+	padding: 0;
+	width: 120px;
+	display: inline;
+	top: 25px;
+	position: relative;
+	font-weight: 400;
+	margin-left: 130px;
+}
+#events hr{
+	border: none;
+	height: 1px;
+	background-color: white;
+	transform: rotate(90deg);
+	width: 80px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 90px;
+	top: 10px;
+	margin-left: 130px;
+}
+#events p{
+	margin: 1.5px;
+	left: 150px;
+	top: -30px;
+	width: 90%;
+	position: relative;
+	font-weight: 100;
+	margin-left: 130px;
+}
+#events a{
+	font-weight: 900;
+	text-decoration: none;
+	color: white;
+}
+#divider{
+	position: relative;
+	top: -70px;
+	margin-bottom: 40px;
+	border: none;
+	height: 1px;
+	background-color: white;
+	width: 90%;
+}
+#article1{
+	height: 500px;
+	font-family: 'goudy';
+}
+#article1 .image{
+	width: 600px;
+	height: 350px;
+	background-image: url(../images/crew.jpg);
+	background-size: cover;
+	position: relative;
+	left: 10%;
+	top: 10%;
+	cursor: pointer;
+}
+#article1 h1{
+	position: relative;
+	left: 28%;
+	top: -220px;
+	font-size: 6em;
+	font-weight: 900;
+	max-width: 900px;
+	cursor: pointer;
+}
+
+#article1 h3{
+	position: relative;
+	font-size: 4em;
+	left: 30%;
+	top: -280px;
+	font-weight: 300;
+	max-width: 900px;
+	cursor: pointer;
+}
+#article1 .big_plus{
+	position: relative;
+	left: -18%;
+	top: -250px;
+}
+#article2{
+	height: 740px;
+	font-family: 'goudy'
+}
+#article2 .image{
+	width: 600px;
+	height: 350px;
+	background-image: url(../images/crater.jpg);
+	position: relative;
+	left: 45%;
+	top: 60px;
+}
+#article2 h1{
+	position: relative;
+	left: 30%;
+	top: -200px;
+	font-size: 6em;
+	font-weight: 900;
+	max-width: 900px;
+}
+#article2 h3{
+	position: relative;
+	font-size: 4em;
+	left: 35%;
+	top: -260px;
+	font-weight: 300;
+	max-width: 900px;
+}
+#article2 .big_plus{
+	position: relative;
+	left: -20%;
+	top: -225px;
+}
+.subarticles{
+	margin-top: 100px;
+	height: 650px;
+	font-family: 'goudy'
+}
+.subarticles .plus{
+	left: 41%;
+}
+.subarticles h1, .subarticles h3{
+	position: relative;
+	top: -70px;
+	width: 300px;
+	font-weight: 900;
+	cursor: pointer;
+}
+.subarticles h3{
+	top: -80px;
+	font-weight: 100;
+}
+#subarticle1{
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	left: 5%;
+	text-align: center;
+}
+#subarticle1 .image{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/tgiss.jpeg);
+	background-size: cover;
+	background-position: left;
+}
+#subarticle2{
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	left: 15%;
+	top: 100px;
+	text-align: center;
+}
+#subarticle2 .image{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/hubble.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#subarticle3{
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	left: 25%;
+	text-align: center;
+}
+#subarticle3 .image{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/mars.jpg);
+	background-size: cover;
+}
+/* Juno Page Styles */
+#jminfo{
+	position: relative;
+	top: -150px;
+	font-family: 'univers';
+	max-width: 70%;
+}
+#jminfo h1{
+	font-size: 8em;
+	font-family: 'universbold';
+	text-align: center;
+	position: relative;
+	left: 25%;
+	margin-bottom: 0;
+}
+#jminfo hr{
+	transform: rotate(90deg);
+	position: relative;
+	left: -5%;
+	top: 155px;
+	width: 275px;
+	border: none;
+	height: 2px;
+	background-color: white;
+}
+#jminfo p{
+	position: relative;
+	left: 50%;
+	width: 60%;
+}
+#junoarticle{
+	height: 600px;
+	font-family: 'goudy';
+}
+#junoarticle .image{
+	width: 800px;
+	height: 350px;
+	background-image: url(../images/juno.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	left: 20%;
+	top: 10%;
+}
+#junoarticle h1{
+	position: relative;
+	left: 16%;
+	top: -300px;
+	font-size: 8em;
+	font-weight: 900;
+	max-width: 800px;
+	cursor: pointer;
+	margin: 0;
+}
+#junoarticle .big_plus{
+	position: relative;
+	top: -500px;
+	left: 6%;
+}
+#videos{
+	height: 500px;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 90px;
+}
+#videos .plus{
+	left: 45%;
+}
+#videos h3{
+	font-size: 2em;
+}
+#vid1{
+	display: inline-block;
+	position: relative;
+	margin-right: 50px;
+}
+#vid2{
+	display: inline-block;
+	position: relative;
+	margin-left: 50px;
+}
+#jsubart1{
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	left: 5%;
+	text-align: center;
+}
+#jsubart1 .image{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/junolocation.jpg);
+	background-size: cover;
+	background-position: left;
+}
+#jsubart2{
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	left: 15%;
+	top: 100px;
+	text-align: center;
+}
+#jsubart2 .image{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/flyby.png);
+	background-size: cover;
+	background-position: center;
+}
+#jsubart2 .plus{
+	position: relative;
+	top: -70px;
+}
+#jsubart3{
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	left: 25%;
+	text-align: center;
+}
+#jsubart3 .image{
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/northpole.png);
+	background-size: cover;
+}
+#jsubart3 .plus{
+	position: relative;
+	top: -80px;
+}
+/* About NASA Page Styles */
+#about{
+	position: relative;
+	top: -150px;
+	font-family: 'univers';
+	max-width: 70%;
+	height: 300px;
+}
+#about h1{
+	font-size: 8em;
+	font-family: 'universbold';
+	text-align: center;
+	position: relative;
+	left: 25%;
+	margin-bottom: 0;
+}
+#about hr{
+	transform: rotate(90deg);
+	position: relative;
+	left: -5%;
+	top: 158px;
+	width: 280px;
+	border: none;
+	height: 2px;
+	background-color: white;
+}
+#about p{
+	position: relative;
+	left: 50%;
+	width: 60%;
+}
+#admin1 h1, #admin2 h1{
+	font-family: 'goudy';
+	font-weight: 400;
+	font-size: 6em;
+	max-width: 1000px;
+	z-index: 1;
+}
+#admin1 p, #admin2 p{
+	font-family: 'univers';
+	font-weight: 100;
+	font-size: 1.25em;
+}
+#admin1{
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 650px;
+}
+#admin1 .image{
+	width: 512px;
+	height: 288px;
+	background-image: url(../images/bolden.jpg);
+	background-size: cover;
+	position: relative;
+	left: 8%;
+	top: 200px;
+}
+#admin1 p{
+	max-width: 600px;
+	position: relative;
+	left: 50%;
+	top: -108px;
+}
+#admin1 h1{
+	position: relative;
+	left: 25%;
+	top: -150px;
+	line-height: 1em;
+}
+#admin2{
+	text-align: right;
+	height: 500px;
+}
+#admin2 .image{
+	width: 512px;
+	height: 288px;
+	background-image: url(../images/newman.jpg);
+	background-size: cover;
+	position: relative;
+	left: 55%;
+}
+#admin2 p{
+	max-width: 600px;
+	position: relative;
+	left: 6%;
+	top: -310px;
+}
+#admin2 h1{
+	position: relative;
+	line-height: 1em;
+	top: -300px;
+	text-align: left;
+	left: 25%;
+}
+.test{
+	height: 400px;
+	background-color: green;
+}
+.plus{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	transform: rotate(0deg);
+ 	transition: transform .5s;
+ 	cursor: pointer;
+}
+.horizontal{
+	width: 40px;
+	height: 7px;
+	position: relative;
+	background-color: white;
+	float: left;
+	top: 17px;
+	transform: rotate(0deg);
+	left: 0px;
+	transition: transform .5s, top .5s, width .25s, left .5s;
+}
+.vertical{
+	float: left;
+	width: 40px;
+	height: 7px;
+	position: relative;
+	transform: rotate(90deg);
+	background-color: white;
+	top: 10px;
+	left: 0px;
+	transition: transform .5s, top .5s, width .25s, left .25s;
+}
+.stest_1 {
+	transform: rotate(360deg);
+ 	transition: transform .5s;
+}
+
+.stest_2 {
+	transform: rotate(45deg);
+	transition: transform .5s, top .5s, width .25s, left .5s;
+	top: 8px;
+	width: 30px;
+	left: 10px;
+}
+
+.stest_3 {
+	top: 18px;
+	width: 30px;
+	left: 10px;
+	transition: transform .5s, top .5s, width .25s, left .5s;
+	transform: rotate(-45deg);
+}
+.plus:hover{
+	transform: rotate(360deg);
+ 	transition: transform .5s;
+}
+
+.plus:hover > .horizontal{
+	transform: rotate(45deg);
+	transition: transform .5s, top .5s, width .25s, left .5s;
+	top: 8px;
+	width: 30px;
+	left: 10px;
+}
+.plus:hover > .vertical{
+	top: 18px;
+	width: 30px;
+	left: 10px;
+	transition: transform .5s, top .5s, width .25s, left .5s;
+	transform: rotate(-45deg);
+}
+.big_plus{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	transform: rotate(0deg);
+ 	transition: transform .5s;
+ 	cursor: pointer;
+}
+.big_horizontal{
+	width: 80px;
+	height: 14px;
+	position: relative;
+	background-color: white;
+	float: left;
+	top: 33px;
+	transform: rotate(0deg);
+	left: 0px;
+	transition: transform .5s, top .5s, width .25s, left .5s;
+}
+.big_vertical{
+	float: left;
+	width: 80px;
+	height: 14px;
+	position: relative;
+	transform: rotate(90deg);
+	background-color: white;
+	top: 19px;
+	left: 0px;
+	transition: transform .5s, top .5s, width .25s, left .5s;
+}
+
+.test_1 {
+	transform: rotate(360deg);
+ 	transition: transform .5s;
+}
+
+.test_2 {
+	transform: rotate(45deg);
+	transition: transform .5s, top .5s, width .25s, left .5s;
+	top: 20px;
+	width: 50px;
+	left: 15px;
+}
+
+.test_3 {
+	top: 32px;
+	width: 50px;
+	left: 15px;
+	transition: transform .5s, top .5s, width .25s, left .5s;
+	transform: rotate(-45deg);
+}
+
+.big_plus:hover{
+	transform: rotate(360deg);
+ 	transition: transform .5s;
+
+}
+
+.big_plus:hover > .big_horizontal{
+	transform: rotate(45deg);
+	transition: transform .5s, top .5s, width .25s, left .5s;
+	top: 20px;
+	width: 50px;
+	left: 15px;
+}
+.big_plus:hover > .big_vertical{
+	top: 32px;
+	width: 50px;
+	left: 15px;
+	transition: transform .5s, top .5s, width .25s, left .5s;
+	transform: rotate(-45deg);
+}
